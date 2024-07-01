@@ -1,0 +1,13 @@
+name: GitHub Actions certification test
+on: push
+jobs: 
+  logs_name:
+    name: logs my name
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: First Log
+      run: echo "This is the first log"
+
+    - name: Second Log
+      run: echo "This is the second log"
